@@ -22,8 +22,8 @@ test:
 	CODE_SIGNING_REQUIRED=NO | xcpretty
 	
 carthage:
-	carthage update --no-use-binaries --no-build
-	carthage build --no-use-binaries --no-skip-current
+	carthage update --no-use-binaries --no-build --use-xcframeworks
+	carthage build --no-use-binaries --no-skip-current --use-xcframeworks
 
 webp:
 	carthage update --no-use-binaries --no-build
