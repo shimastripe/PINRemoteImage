@@ -48,15 +48,10 @@
 		139D50B11F672BBF00DE64E0 /* PINResume.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B7E3B01E736C73000FC887 /* PINResume.h */; };
 		139D50B21F672BBF00DE64E0 /* PINSpeedRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6860CB061F578287005E886E /* PINSpeedRecorder.h */; };
 		4590B36E28191D840069E66F /* PINCache.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4590B36C28191D840069E66F /* PINCache.xcframework */; };
-		4590B36F28191D840069E66F /* PINCache.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4590B36C28191D840069E66F /* PINCache.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4590B37028191D840069E66F /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4590B36D28191D840069E66F /* PINOperation.xcframework */; };
-		4590B37128191D840069E66F /* PINOperation.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4590B36D28191D840069E66F /* PINOperation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4590B37228191D8F0069E66F /* PINCache.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4590B36C28191D840069E66F /* PINCache.xcframework */; };
-		4590B37328191D8F0069E66F /* PINCache.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4590B36C28191D840069E66F /* PINCache.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4590B37428191D8F0069E66F /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4590B36D28191D840069E66F /* PINOperation.xcframework */; };
-		4590B37528191D8F0069E66F /* PINOperation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4590B36D28191D840069E66F /* PINOperation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4590B378281923ED0069E66F /* libwebp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4590B377281923ED0069E66F /* libwebp.xcframework */; };
-		4590B379281923ED0069E66F /* libwebp.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4590B377281923ED0069E66F /* libwebp.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		683128F51F95045200D5B4A8 /* PINAnimatedImage+PINAnimatedImageTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 683128F41F95045200D5B4A8 /* PINAnimatedImage+PINAnimatedImageTesting.m */; };
 		6858C0751C9CC5BA00E420EB /* PINRemoteLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 6858C0731C9CC5BA00E420EB /* PINRemoteLock.h */; };
 		6858C0761C9CC5BA00E420EB /* PINRemoteLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6858C0741C9CC5BA00E420EB /* PINRemoteLock.m */; };
@@ -187,30 +182,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4590B37628191D8F0069E66F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4590B37328191D8F0069E66F /* PINCache.xcframework in Embed Frameworks */,
-				4590B37528191D8F0069E66F /* PINOperation.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		687BB0A81E526FE0005D70C6 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4590B36F28191D840069E66F /* PINCache.xcframework in CopyFiles */,
-				4590B379281923ED0069E66F /* libwebp.xcframework in CopyFiles */,
-				4590B37128191D840069E66F /* PINOperation.xcframework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		687BB0B11E527EBC005D70C6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -674,7 +645,6 @@
 				139D3A561F67284400F82935 /* Frameworks */,
 				139D3A571F67284400F82935 /* Headers */,
 				139D3A581F67284400F82935 /* Resources */,
-				4590B37628191D8F0069E66F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -727,7 +697,6 @@
 			buildConfigurationList = F1B918D91BCF239200710963 /* Build configuration list for PBXNativeTarget "PINRemoteImage" */;
 			buildPhases = (
 				F1B918CC1BCF239200710963 /* Sources */,
-				687BB0A81E526FE0005D70C6 /* CopyFiles */,
 				F1B918CD1BCF239200710963 /* Frameworks */,
 				F1B918CE1BCF239200710963 /* Headers */,
 			);
