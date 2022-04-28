@@ -17,13 +17,9 @@
 		320117CC24444E3D004FD783 /* PINMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC01060B1E271A9000890935 /* PINMemoryCache.m */; };
 		320117CD24444E3D004FD783 /* PINCacheMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A0FBFF1E4D3282000B552D /* PINCacheMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4590B360281918930069E66F /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4590B35F281918930069E66F /* PINOperation.xcframework */; };
-		4590B361281918930069E66F /* PINOperation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4590B35F281918930069E66F /* PINOperation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4590B3632819189C0069E66F /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4590B35F281918930069E66F /* PINOperation.xcframework */; };
-		4590B3642819189C0069E66F /* PINOperation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4590B35F281918930069E66F /* PINOperation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4590B366281918A20069E66F /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4590B35F281918930069E66F /* PINOperation.xcframework */; };
-		4590B367281918A20069E66F /* PINOperation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4590B35F281918930069E66F /* PINOperation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4590B369281918A70069E66F /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4590B35F281918930069E66F /* PINOperation.xcframework */; };
-		4590B36A281918A70069E66F /* PINOperation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4590B35F281918930069E66F /* PINOperation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6818C1491E55020400875DB7 /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0105CE1E271A4900890935 /* PINCache.framework */; };
 		687BB0AA1E52706B005D70C6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0106CA1E28248800890935 /* Default-568h@2x.png */; };
 		68A0FC001E4D32C4000B552D /* PINCacheMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A0FBFF1E4D3282000B552D /* PINCacheMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -92,50 +88,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4590B362281918930069E66F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4590B361281918930069E66F /* PINOperation.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4590B3652819189C0069E66F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4590B3642819189C0069E66F /* PINOperation.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4590B368281918A20069E66F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4590B367281918A20069E66F /* PINOperation.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4590B36B281918A70069E66F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4590B36A281918A70069E66F /* PINOperation.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		687BB55C1E52818B005D70C6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -393,7 +345,6 @@
 				3201179E24444DF7004FD783 /* Frameworks */,
 				3201179C24444DF7004FD783 /* Headers */,
 				3201179F24444DF7004FD783 /* Resources */,
-				4590B36B281918A70069E66F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -412,7 +363,6 @@
 				CC0105AD1E271A1600890935 /* Frameworks */,
 				CC0105AE1E271A1600890935 /* Headers */,
 				CC0105AF1E271A1600890935 /* Resources */,
-				4590B362281918930069E66F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -431,7 +381,6 @@
 				CC0105BD1E271A4000890935 /* Frameworks */,
 				CC0105BE1E271A4000890935 /* Headers */,
 				CC0105BF1E271A4000890935 /* Resources */,
-				4590B3652819189C0069E66F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -450,7 +399,6 @@
 				CC0105CA1E271A4900890935 /* Frameworks */,
 				CC0105CB1E271A4900890935 /* Headers */,
 				CC0105CC1E271A4900890935 /* Resources */,
-				4590B368281918A20069E66F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
