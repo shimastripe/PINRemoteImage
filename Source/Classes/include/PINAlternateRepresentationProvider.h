@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "PINRemoteImageManager.h"
+#import <PINRemoteImageManager.h>
 
 @protocol PINRemoteImageManagerAlternateRepresentationProvider <NSObject>
 @required

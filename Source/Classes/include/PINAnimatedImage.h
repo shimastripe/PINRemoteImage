@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PINRemoteImageMacros.h"
+#import <PINRemoteImageMacros.h>
 
 #if PIN_TARGET_IOS
 #import <UIKit/UIKit.h>
